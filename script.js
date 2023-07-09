@@ -68,21 +68,20 @@ function generateResume(){
 
 
     // code for setting image
-   let file=document.getElementById('imgField').files[0];
-   console.log(file);
-   let reader=new FileReader();
-   reader.readAsDataURL(file);
-   console.log(reader.result);
+//    let file=document.getElementById('imgField').files[0];
+//    console.log(file);
+//    let reader=new FileReader();
+//    reader.readAsDataURL(file);
+//    console.log(reader.result);
    
 
-   reader.onloadend=function(){
-   document.getElementById('imgTemplate').src=reader.result;
-};
+//    reader.onloadend=function(){
+//    document.getElementById('imgTemplate').src=reader.result;
+// };
 
-    document.getElementById("form").style.display="none";
-    document.getElementById("template").style.display="block";
+    document.getElementById("formId").style.display="none";
+    document.getElementById("templateId").style.display="block";
     
-
    }
 
 
