@@ -13,7 +13,8 @@
 
 
 <body>
-    <div class="container " id="form" >
+
+    <div class="container " id="formId" >
         <h1 class="text-center my-2">Resume Generator</h1>
 
         <p class="text-center subheading">Build your Free Professional Resume </p>
@@ -131,17 +132,18 @@
 
 
             </div>
-        <div>   
+        </div>  
 
 
         <div class="container text-center mt-3 my-4">
             <button  onclick="generateResume()" class=" but btn btn-primary  btn-lg">Generate Resume</button> 
         </div>
 
-    <div>    
+    </div>  
 
 
-    <div class="container" id="template">
+
+    <div class="container" id="templateId">
 
         <div class="row">
 
@@ -153,7 +155,7 @@
                 class="img-fluid myimg"  
                 id="imgTemplate" />
 
-            <div class="container template-info">
+            <div class="container tempinfo">
                 <p id="nameT1" class="mt-1">Stefani Williams</p>
                 <p id="contactT">+91 8454654899</p>
                 <p id="addressT">125/875 Chandni Chauk, Delhi, India</p>
@@ -216,11 +218,12 @@
                 </div>
 
 
-                <div class="container mt-3 text-center">
-                    <button onclick="printResume()" class="btn but btn-primary btn-lg">Print Resume</button>
-                </div>
+            
 
             </div>
+            <footer class="container mt-3 text-center">
+                <button onclick="printResume()" class="btn but btn-primary btn-lg">Print Resume</button>
+            </footer>
 
         </div>
 
