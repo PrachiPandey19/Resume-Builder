@@ -1,0 +1,48 @@
+body{
+    background-color: #164B60;
+}
+
+.subheading{
+    color: aliceblue;
+
+}
+
+h1,h3, label, .template-info, hr, .imp-links, .linkclass {
+    color:white;
+}
+
+#nameT2, .card-header{
+    color:#003151;
+    
+}
+
+.left{
+    padding:10px;
+    margin: 20px 0;
+    background-color: #4682B4;
+}
+
+#template{
+    background:white;
+    /* display: none; */
+}
+.card-header{
+    background-color: #003151;
+}
+
+.card{
+    color: white;
+    background-color: #4682B4;
+}
+
+.myimg{
+    border-radius:50%;
+    width:200px;
+}
+
+.but{
+    color:whitesmoke; 
+    background-color: #0c2833;
+    margin-bottom: 7px;
+}
+
